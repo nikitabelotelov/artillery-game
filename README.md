@@ -1,1 +1,1 @@
-Playdate artillery date
+Playdate artillery game
