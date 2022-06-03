@@ -1,1 +1,1 @@
-Simple playdate artillery date
+Playdate artillery date
