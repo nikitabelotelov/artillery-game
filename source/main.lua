@@ -237,7 +237,7 @@ function updateGameplay()
     if(checkKonamiCode()) then
         gameState.trajectoryDrawDistance = 5 
         gameState.cheats = true   
-    elseif playdate.buttonJustPressed(playdate.kButtonA) then
+    elseif not gameState.moving and playdate.buttonJustPressed(playdate.kButtonA) then
         gameState.moving = true
         gameState.shots = gameState.shots + 1
         resources.sounds.shotSound:play()
